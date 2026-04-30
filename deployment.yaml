@@ -24,7 +24,7 @@ spec:
         - name: web
           # ✅ ใช้ immutable tag เท่านั้น (ห้าม latest)
           # เปลี่ยน tag = deploy เวอร์ชันใหม่
-          image: quay.io/phatthananvst01/quaytest2603:v2026.04.22-f883ea5
+          image: quay.io/phatthananvst01/quaytest2603:v2026.04.30-47c5125
           imagePullPolicy: Always
           ports:
             - containerPort: 80
